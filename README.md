@@ -45,7 +45,14 @@ The database schema includes a single table named `investment_fund` with the fol
 - `fund_creation_date` (DATE, Not Null)
 - `fund_performance` (REAL, Not Null)
 
-## Testing
-Run tests using pytest:
+## Installation
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+## Running the Application
+Start the Flask development server:
 ```bash
-pytest
+python run.py
